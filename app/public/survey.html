@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en us">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=News+Cycle" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+
+    <title>Friends Finder</title>
+</head>
+
+<body id="surveyPage">
+    <div class="container" id="headline2">
+        <h1 id="surveyHeadline">I'll be there for you.</h1>
+    </div>
+    <div class="container" id="mainbody">
+        <form>
+            <div class="form-group">
+                <label for="userName">Your Name</label>
+                <input type="text" class="form-control" id="name">
+            </div>
+            <div class="form-group">
+                <label for="occupation">Occupation</label>
+                <input type="text" class="form-control" id="occupation">
+            </div>
+            <div class="form-group">
+                <label for="quote">Something you commonly say</label>
+                <input type="text" class="form-control" id="quote">
+            </div>
+            <div class="form-group">
+                <label for="userImage">Link to an image of you</label>
+                <input type="text" class="form-control" id="image">
+            </div>
+        </form>
+    </div>
+
+    <div class="container" id="mainbody2">
+        <h3 id="subhead">On a scale of 1-5, where 5 is strongly agree and 1 is strongly disagree, answer the following
+            questions.</h3>
+        <form id="survey">
+            <div class="form-group">
+                <label for="Question 1" id="question">My house or apartment is extremely clean and organized.</label>
+                <select class="form-control" id="answerOne">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="Question 2" id="question">I can often be found exploring my creative passions.</label>
+                <select class="form-control" id="answerTwo">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="Question 3" id="question">I'm a spoiled adult, living off my daddy's money.</label>
+                <select class="form-control" id="answerThree">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="Question 4" id="question">I have an irrational fear of dogs.</label>
+                <select class="form-control" id="answerFour">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="Question 5" id="question">You should wait an appropriate amount of time before asking
+                    someone out.</label>
+                <select class="form-control" id="answerFive">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="Question 6" id="question">My friends often impersonate my speech pattern.</label>
+                <select class="form-control" id="answerSix">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="Question 7" id="question">You are always the host of social gatherings.</label>
+                <select class="form-control" id="answerSeven">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="Question 8" id="question">Your best friend was your freshmen roommate in college.</label>
+                <select class="form-control" id="answerEight">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="Question 9" id="question">You are the favorite child of your parents.</label>
+                <select class="form-control" id="answerNine">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="Question 10" id="question">You can often be found sipping coffee with friends at a local
+                    coffee shop.</label>
+                <select class="form-control" id="answerTen">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary" id="submit" data-toggle="modal" data-target="#modalResult">Take Me to Central Perk</button>
+        </form>
+    </div>
+
+    <!-- Modal to display Friend match -->
+    <!-- Button trigger modal -->
+
+    <div class="modal fade" id="modalResult" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTitle">Your New BFF!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-4">
+                            <img id="matchPhoto">
+                        </div>
+                        <div class="col-8">
+                            <h3 id="matchName"></h3>
+                            <h6 id="matchJob"></h6>
+                            <h6 id="matchQuote"></h6>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="/home"><button type="button" class="btn btn-secondary">Close</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascript/script.js"></script>
+</body>
+
+</html>

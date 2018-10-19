@@ -1,0 +1,125 @@
+/* #4F4A41 = Brown */
+/* #44318D = Purple */
+/* #FAED26 = Yellow */
+/* #FF652F = Orange */
+/* #190061 = Blue */
+
+#homePage {
+    font-family: 'Permanent Marker', cursive;
+    background-image: url("../images/CentralPerk.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top center;
+    background-size: cover;
+}
+
+#header {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#image {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#surveyPage {
+    font-family: 'Permanent Marker', cursive;
+    background-color: #4F4A41;
+}
+
+#mainbody {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-family: 'News Cycle', sans-serif;
+}
+
+#mainbody2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-family: 'News Cycle', sans-serif;
+}
+
+#mainbody {
+    color: #190061;
+    /* background-color: #FFFFFF */
+}
+
+#homeHeadline {
+    color:#FAED26;
+}
+
+#surveyHeadline {
+    color:#FAED26;
+    font-size: 60px;
+}
+
+#headline2 {
+    background-image: url("../images/CentralPerk.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment: inherit;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+
+#subhead {
+    color: #FF652F;
+}
+
+#welcome {
+    background-color: #44318D;
+    width: 700px;
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -350px;
+    padding: 50px;
+}
+
+#question{
+    color: #FF652F;
+}
+
+.btn {
+    background-color:#FAED26;
+    border-color:#FAED26;
+    color: #44318D;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: #FF652F;
+    border-color: #FF652F;
+}
+
+.modal-content {
+    background-color: #44318D;
+    color: #FF652F;
+    font-family: 'News Cycle', sans-serif;
+}
+
+#matchPhoto {
+    height: 200px;
+
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    font-family: 'News Cycle', sans-serif;
+}
+
+a {
+    color: #FF652F;
+}
+
+a:hover {
+    color: #FAED26;
+}
+
